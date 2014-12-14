@@ -1,0 +1,34 @@
+<ons-page style="background-color: white">
+
+    <ons-list>
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick='slidingMenu.setMainPage("homeController.html", {closeMenu: true});'>
+            <ons-icon icon="ion-speakerphone" style="color: #666"></ons-icon>
+            Plaza
+        </ons-list-item>
+		<ons-list-item
+			modifier="tappable" class="list__item__line-height"
+			onclick='slidingMenu.setMainPage("my_posts_Controller.html", {closeMenu: true});'>
+			<i class="fa fa-home fa-lg" style="color: #666"></i>
+			Home
+		</ons-list-item>
+		<ons-list-item
+			modifier="tappable" class="list__item__line-height"
+			onclick='slidingMenu.setMainPage("accepted_request.html", {closeMenu: true});'>
+            <ons-icon icon="ion-waterdrop" style="color: #666"></ons-icon>
+			
+			Accepted Request
+		</ons-list-item>
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="slidingMenu.setMainPage('settings.html', {closeMenu: true})">
+            <i class="fa fa-gear fa-lg" style="color: #666"></i>
+            Settings
+        </ons-list-item>
+
+    </ons-list>
+
+
+
+</ons-page>

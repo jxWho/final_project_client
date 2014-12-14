@@ -1,0 +1,8 @@
+/* This is a CSS file */
+#settings_page input {
+	width: 100%;
+}
+
+#settings_page ::-webkit-input-placeholder {
+	color: rgba(38, 100, 171, 0.81);
+}

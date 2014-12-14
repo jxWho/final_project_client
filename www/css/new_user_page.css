@@ -1,0 +1,22 @@
+/* This is a CSS file */
+#new_user_page form {
+	width: 100%;
+}
+
+#new_user_page form p {
+	margin-bottom: 20px;
+}
+
+#new_user_page input {
+	width: 100%;
+}
+
+#new_user_page ::-webkit-input-placeholder {
+	color : rgba(38, 100, 171, 0.81);
+}
+
+#new_user_page ons-button {
+	width: 100%;
+	color : rgba(38, 100, 171, 0.81);
+	text-align: center;
+}

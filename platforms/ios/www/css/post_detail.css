@@ -1,0 +1,21 @@
+/* This is a CSS file */
+#post_detail_page #post_detail_content{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#post_detail_page #post_detail_title
+{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#post_detail_page ons-button {
+	width: 100%;
+	text-align: center;
+	
+	color: #dc5236;
+}
+

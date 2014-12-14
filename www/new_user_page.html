@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="components/loader.css">
+    <script src="components/loader.js"></script>
+    <script>
+        //
+        // TODO: Write JavaScript code here
+        //
+        ons.bootstrap();
+        // ons.disableAutoStatusBarFill();
+
+    </script>
+    
+    <link href="css/new_user_page.css" rel="stylesheet"/>
+    <script src="js/new_user_page.js"></script>
+</head>
+<body>
+    <!-- TODO: Please edit here -->
+    <ons-page id="new_user_page">
+		<ons-toolbar>
+			<div class="center">
+				Register
+			</div>
+			<div class="left">
+				<ons-back-button onclick="window.location.href='index.html';">
+				</ons-back-button>
+			</div>
+		</ons-toolbar>
+    	<div class="content-padded">
+    		<form action="" method="post" id="new_user_page_form">
+    			<p>
+    				<input class="text-input--underbar" id="username" placeholder="Username:"/>
+    			</p>
+    			<p>
+    				<input class="text-input--underbar" id="password" placeholder="Password:" type="password"/>
+    			<p>
+				<p>
+    				<input class="text-input--underbar" id="password" placeholder="Confirm Password:" type="password"/>
+    			<p>
+    			<p>
+    				<input class="text-input--underbar" id="phoneNumber" placeholder="Phone Number:"/>
+    			</p>
+    			<p>
+    				<input class="text-input--underbar" id="email" placeholder="Email:"/>
+    			<p>
+    			<p>
+    				<ons-button modifier="light" id="new_user_page_submitButton">Submit</ons-button>
+    			</p>
+    		</form>
+    	</div>
+    </ons-page>
+</body>
+</html>

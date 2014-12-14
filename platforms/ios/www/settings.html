@@ -1,0 +1,53 @@
+<ons-page id="settings_page">
+	<ons-toolbar>
+		<div class="left">
+			<ons-toolbar-button onclick="slidingMenu.toggleMenu()"><ons-icon icon="ion-navicon"></ons-icon></ons-toolbar-button>
+		</div>
+		<div class="center">
+    		Settings
+		</div>
+    	</ons-toolbar>
+    	
+    	<div class="content-padded">
+    		<p>
+    			<input class="text-input--underbar" id="setting_page_userName" placeholder="Username: "/>
+			</p>
+			
+			<p>
+    			<input class="text-input--underbar" id="setting_page_phonenumber" placeholder="PhoneNumber: "/>
+    		</p>
+    		
+    		<p>
+    			<input class="text-input--underbar" id="setting_page_email" placeholder="Email: "/>
+    		</p>
+    		
+    		<p>
+    			<input class="text-input--underbar" id="setting_page_old_password" value="" placeholder="Old Password: "/>
+    		</p>
+    		
+			<p>
+    			<input class="text-input--underbar" id="setting_page_new_password" value="" placeholder="New Password: "/>
+    		</p>
+    		
+			<p>
+    			<input class="text-input--underbar" id="setting_page_confirm_password" value="" placeholder="Confirm Password: "/>
+    		</p>
+    		
+    		<p>
+    			<ons-button modifier="large" style="
+    				background-color:rgba(38, 100, 171, 0.81);
+    			">Submit</ons-button>
+    		</p>
+    		
+    		<p>
+    			<ons-button modifier="large" style="background-color: red;" onclick="
+    				localStorage.username = undefined;
+    				localStorage.password = undefined;
+    				localStorage.userID = undefined;
+    				window.location.href = 'index.html';
+    			">
+    				Log Out
+    			</ons-button>
+    		</p>
+    	</div>
+</ons-page>

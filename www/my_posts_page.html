@@ -1,0 +1,33 @@
+<ons-page id="my_posts_page">
+	<ons-toolbar>
+		<div class="left">
+			<ons-toolbar-button onclick="slidingMenu.toggleMenu()"><ons-icon icon="ion-navicon"></ons-icon></ons-toolbar-button>
+		</div>
+		<div class="center" id="main_post_refresh">
+    		Home Posts
+		</div>
+
+    	</ons-toolbar>
+    		<div id="Home_post_list">
+    		
+    		<ons-list modifier="inset">
+				<ons-list-item class="list__item--tappable square_posts item" modifier="chevron">
+					<ons-row>
+            			<ons-col>
+							<header><span class="item-title">Post Test1</span></header>
+							<p class="item-desc">
+								Post Content long long long long long long long long long long long 
+							</p>
+            				</ons-col>
+					</ons-row>
+				</ons-list-item></ons-list>
+				
+    			<ons-list modifier="inset">
+    				<ons-list-item class="list__item--tappable square_posts" modifier="chevron" id="test_post">One</ons-list-item>
+    			</ons-list>
+    			<ons-list modifier="inset">
+					<ons-list-item class="list__item--tappable square_posts" modifier="chevron">two</ons-list-item>
+    			</ons-list>
+    		</div>
+</ons-page>
+

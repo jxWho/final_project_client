@@ -1,0 +1,32 @@
+#user_row{
+    position: absolute;
+    top: 35%;
+}
+
+#user_row input {
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+#user_row ::-webkit-input-placeholder {
+	color: rgba(38, 100, 171, 0.81);
+
+}
+
+#user_row ons-button {
+	margin-top: 10px;
+	width: 80%;
+	color: rgba(38, 100, 171, 0.81);
+}
+
+#user_row a:visited {
+	color : rgba(38, 100, 171, 0.81);
+}
+
+#user_row a:link {
+	color : rgba(38, 100, 171, 0.81);
+}
+
+#user_row a:hover {
+	color: grey;
+}

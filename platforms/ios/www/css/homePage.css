@@ -1,0 +1,28 @@
+/* This is a CSS file */
+.square_posts {
+}
+
+body{
+	color: rgba(38, 100, 171, 0.81);
+
+}
+
+ons-dialog p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ons-dialog textarea {
+	width: 100%;
+	height: 150px;
+	display: inline;
+}
+
+ons-dialog input {
+	width: 100%;
+}
+
+ons-dialog ons-button {
+	width: 100%;
+	color: rgba(38, 100, 171, 0.81);
+}
